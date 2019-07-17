@@ -1,3 +1,7 @@
+script:
+- mkdir _build
+- pdflatex -output-directory _build tex/main.tex
+
 deploy:
   provider: pages
   skip_cleanup: true
