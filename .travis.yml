@@ -13,4 +13,5 @@ deploy:
   keep_history: true
   file: 'vrx_cv.pdf'
   on:
-      repo: vrx-/vrx-.github.io/files
+      branch: master
+      #repo: vrx-/vrx-.github.io/files
