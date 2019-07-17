@@ -1,0 +1,313 @@
+% Jason R. Blevins - Curriculum Vitae
+%
+% Copyright (C) 2004-2010 Jason R. Blevins
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+
+\newcommand{\vrx}{\textbf{V. Ruiz-Xomchuk}}
+\newcommand{\rxv}{\textbf{Ruiz-Xomchuk, V.}}
+\newcommand{\inv}{\textbf{\textit{(invited)}}}
+
+% Comment the following line to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+%\usepackage[sc,osf]{mathpazo}
+
+% In practice, I use the following font packages instead of mathpazo.
+% beramono provides a nice fixed-width font. xagaramon uses the
+% (commercial) Adobe Garamond font.
+\usepackage[scaled=0.75]{beramono}
+%\usepackage[osf]{xagaramon}
+
+% Set your name here
+\def\name{Veronica Ruiz Xomchuk}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {coastal dynamics,cfd,gfd,roms, tamu},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.75in, 9.0in},
+  left=0.85in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets and compact spacing
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+%%\input{../../LatexFiles/macros}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}[ht]{0.35\textwidth}
+  \href{http://www.tamu.edu/}{Texas A\&M University} \\
+  \href{http://ocean.tamu.edu/}{Department of Oceanography} \\
+  3146 TAMU \\
+  College Station, TX 77843-3146
+\end{minipage}
+\begin{minipage}[ht]{0.6\textwidth}
+  \href{mailto:vrx@tamu.edu}{vrx@tamu.edu} \\
+  \href{https://ocean.tamu.edu/people/students/ruiz-xomchukveronica.html}{\tt https://ocean.tamu.edu/people/students/ruiz-xomchukveronica.html} \\
+  \href{https://vrx-.github.io}{\tt https://vrx-.github.io} \\
+  \href{https://www.researchgate.net/profile/Veronica_Ruiz_Xomchuk/}{\tt https://www.researchgate.net/profile/Veronica\_Ruiz\_Xomchuk}
+  
+\end{minipage}
+
+\section*{Education}
+
+\begin{itemize}
+  \item Ph.D. Oceanography, Texas A\&M University, 2014--2019 (expected).
+  \begin{itemize}
+      \item \textit{Dissertation:} Scales of spatial and temporal variability of bottom hypoxia in the Texas Louisiana Shelf.
+             \item \textit{Committee:} Robert Hetland (chair), Steve DiMarco, Piers Chapman, James Kaihatu.
+  \end{itemize}
+
+  \item M.Sc. Marine and Lacustrine Sciences, Gent University, Belgium, 2002--2003.
+  \begin{itemize}
+       \item \textit{Thesis:} Seasonal variation of surf zone hyperbenthos associated with penaeid shrimp larvae at Ecuadorian sandy beaches.
+       \item \textit{Committee:} Magda Vincx (chair), Maria del Pilar Cornejo (co-chair), Nancy Fockedey.
+  \end{itemize}
+
+  \item B.Sc. Oceanography, Escuela Superior Politecnica del Litoral, Guayaquil, Ecuador, 1997--2002.
+  \begin{itemize}
+      \item \textit{Thesis:} Preliminary study on the temporal variation of intertidal hyperbenthos in a sandy beach in Guayas Province (CENAIM, San Pedro, Ecuador).
+  \end{itemize}
+
+\end{itemize}
+
+% \section*{Experience}
+\section*{Research Experience}
+
+\begin{itemize}
+\item Research Assistant, Department of Oceanography, Texas A\&M University, 2014--present.
+\item Researcher, \href{http://www.inocar.mil.ec/}{Oceanographic Research Institute of the Ecuadorian Navy}, Guayaquil, Ecuador, 2012 -- 2014.
+\item Researcher, \href{http://www.cads.espol.edu.ec/}{Center for Water and Sustainable Development}; Guayaquil, Ecuador, 2000 -- 2010.
+\end{itemize}
+
+\section*{Research Interests}
+\begin{itemize}
+\item Submesoscale processes; Coastal mixing processes; Interactions between physics and biology in the coastal environment; Theory and numerical simulation of flow in coastal environments; Computational Oceanography.
+\end{itemize}
+
+\section*{Research}
+
+\subsection*{Publications}
+
+\subsubsection*{Peer-reviewed}
+
+\begin{itemize}
+\item \rxv~ and R. D. Hetland, (in prep). Submesoscale processes affecting bottom oxygen distribution during seasonal hypoxia in the Texas Louisiana shelf. 
+
+\item \rxv~, R. D. Hetland and S. F. DiMarco, (in prep). Dividing regions by submesoscale processes to derive hypoxia metrics in the nGOM.
+
+\item \rxv~, R. D. Hetland (in prep). Relating patchiness in hypoxia to interannual variability. What can we learn from a simplified model?
+
+Zhang, W., R. D. Hetland, \vrx, S. F. DiMarco, and H. Wu (submited to Marine Pollution Bulletin). Stratification duration and the formation of bottom hypoxia over the Texas-Louisiana Shelf.
+
+\item Dominguez L, \vrx~ and N. Fockedey (2004). Hyperbenthos in Ecuador: 4 years of research. \textit{Revista Tecnologica de la ESPOL}, 17 (1), 124-132 (in Spanish with English abstract). 
+
+\item \rxv~ (2004). Seasonal variation of surf zone hyperbenthos associated with penaeid shrimp larvae at Ecuadorian sandy beaches. MSc Thesis. University of Gent: Gent. 24 pp.
+
+\end{itemize}
+
+
+\subsubsection*{Other Products}
+
+\begin{itemize}
+
+\item \rxv~, L. Dominguez,  J. Marin and S. Mi\~no (2005). "Guide of the intertidal fauna of the Sandy beaches of continental Ecuador," An Outreach VLIR-ESPOL publication. ISBN: 9978-310-12-6.
+
+Guartatanga, S. and \vrx~ (2002). "Benthos sampling: protocol and procedures" A VLIR-ESPOL publication, Laboratory Manual.
+
+\end{itemize}
+
+\subsection*{Conference and Seminar Presentations}
+
+\begin{itemize}
+
+\item \rxv~ and R. D. Hetland, "Is bottom hypoxia in the TX-LA shelf persistent?", Gordon Research Conference: Coastal Ocean Dynamics, Southern New Hampshire University in Manchester, NH, June 16-21, 2019. (poster)
+
+\item \rxv~ and R. D. Hetland, "Using budget analysis to understand variability in modeled bottom hypoxia of the Texas Louisiana shelf",  Gulf of Mexico Oil Spill \& Ecosystem Science Conference, February 7, 2019. \href{http://gulfresearchinitiative.org/wp-content/uploads/oral-abstracts.pdf}{[Oral presentation]}
+
+\item \rxv~ and R. D. Hetland, "Using a budget analysis to understand variability in the bottom hypoxia of the Texas-Louisiana Shelf," Physics of Estuaries and Coastal Seas Meeting 2018, Galveston, TX, October 14--19, 2018. (Oral presentation)
+
+\item \rxv~ and R. D. Hetland, "Variability in Coastal Hypoxia in the Texas-Louisiana shelf," Communicating Ocean Science Poster Session, Texas A\&M University, May 7, 2018.
+
+\item \rxv~ and R. D. Hetland, "Tracing Variability in the Budget Balance of Bottom Water Dissolved Oxygen In the Texas-Louisiana Shelf," AGU Spring Virtual Poster Showcase, April, 2018. \href{https://education.agu.org/files/2018/05/2nd_Grad_VeronicaRuizXomchuk.pdf}{[Poster]}
+
+\item \rxv~ and R. D. Hetland, "Oxygen budget estimation from the advection-diffusion equation in a high resolution model of the Texas-Louisiana Shelf," Abstract OC44A-0496, presented at 2018 Ocean Sciences Meeting, Portland, OR, February 12--16, 2018. \href{https://agu.confex.com/agu/os18/meetingapp.cgi/Paper/326839}{[Link]}
+
+\item \rxv~ and R. D. Hetland, "Can we link variability of bottom hypoxia to baroclinic instabilities
+on the Texas-Louisiana Shelf?," Gordon Research Conference: Coastal Ocean Modeling, University of New England, June 11--16, 2017. (poster)
+
+\item Hetland, R. D., \vrx, S. DiMarco, K. Fennel, and W. Zhang. "Modulation of bottom hypoxia by submesoscale shelf eddies in the Northern Gulf of Mexico," Ocean Sciences Meeting, New Orleans, LA, February 21--26, 2016. (poster)
+
+\end{itemize}
+
+\subsection*{Selected Conferences and Workshops Attended}
+
+\begin{itemize}
+
+\item COAWST Model Training, Woods Hole, MA, February 25--28, 2019.
+
+\item SciPy Conference and Tutorials, Austin, TX, July, 2015, \& 2017-2019.
+
+\item Special HPC Seminar and Workshop on Cloud Computing, Texas A\&M University, March 21, 2017.
+
+\item TUFTE Presenting Data and Information Workshop , Houston, TX, October 12, 2016.
+
+\end{itemize}
+
+
+\section*{Teaching}
+
+\begin{itemize}
+\item Graduate Assistant Lecturer, Introduction to Oceanography (OCNG 251), Texas A\&M University (TAMU), Spring 2017.
+\item Graduate Teaching Assistant, Oceanography Lab (OCNG 252), TAMU, Spring 2016, Summer I and II 2016, Fall 2016.
+\item Lecturer, Multivariate Statistics for Environmental Engineers (UMAT301), Universidad de Especialidades Espiritu Santo (UEES); Guayaquil, Ecuador. Winter 2011, Intensive I 2014. (Spanish)
+\item Lecturer, Introduction to Oceanography (UCEC261), UEES; Guayaquil, Ecuador. Winter 2013. (Spanish)
+\item Lecturer, Environmental Statistics (UMAT238), UEES; Guayaquil, Ecuador. Winter 2013, Winter 2014. (Spanish)
+\item Lecturer, Marine Fauna Management (UAMB354), UEES; Guayaquil, Ecuador. Summer 2013.  (Spanish)
+\end{itemize}
+
+\section*{Field Work}
+
+\begin{itemize}
+    \item Texas continental shelf: R/V Manta, Glider rescue mission, June 22, 2018.
+    \item  Galveston Bay: R/V Trident, NSF RAPID, October 6--7, 2017.
+    \item Texas continental shelf: R/V Point Sur, NSF RAPID, September 27--29, 2017.
+    \item Continental Ecuador to Galapagos. Orion, Ecuadorian regional cruise, summer 2015.
+    \item Intensive benthos sampling in sandy beach surf zones in Ecuador. Developing of sampling and safety protocols. 1999-2010.
+\end{itemize}
+
+\section*{Advisory and Coordination}
+
+\begin{itemize}
+    \item Graduate Mentor for the Oceanography REU program, Texas A\&M University, Summer 2018.
+    \item Ecuadorian Senior representative on the Tsunami Warning System Workshop. Japannese-Ecuadorian collaboration initiative. JICA. Tokyo, Japan. July 2014.
+    \item Research Advisor of the Ecuadorian Commission at the XXVII Antarctic Treaty Consultative Meeting. RTSA. Brasilia, Brazil. May, 2014.
+\end{itemize}
+
+\section*{Honors \& Awards}
+
+\begin{itemize}
+
+\item Robert O. Reid Oceanography Fellowship from the College of Geosciences, Texas A\&M University, 2019.
+\item GOMOSES Student Presenter Award, Gulf of Mexico University Research Collaborative and Harte Research Institute, February 2019.
+\item Donald \& Melba Ross Graduate Scholarship from the College of Geosciences, Texas A\&M University, 2018.
+\item Graduate Showcase Awardee (2nd place), Spring 2018 Virtual Poster Showcase, AGU. 2018
+\item Wormuth Memorial Award for Graduate Student Teaching, Texas A\&M University, 2017.
+\item Ralph Rayburn Texas Sea Grant Scholarship, 2016.
+\item David W. McGrail Oceanography Scolarship, Texas A\&M University, 2015.
+\item VLIR-ESPOL Scholarship, 2012.
+\end{itemize}
+
+\section*{Service}
+\begin{itemize}
+  \item Peer judge for AGU Virtual Poster Showcase, 2018.
+  \item Outreach volunteer, Oceanography Department, Texas A\&M University. Spring 2017, Summer 2017.
+  \item Invited speaker in ''Tsunami awareness'' seminar for local population and stakeholders in Playas Villamil Ecuador, organized by the Red Cross- Ecuador. December 2017, December 2018.
+  \item Volunteer on National Seafloor SCUBA Cleaning Events in Ecuador. June 2012. May 2013.
+  \item Research Volunteer in the Tortuga Program for the ONG Equilibrio Azul in Puerto Lopez, Ecuador. Winter, 2011.
+
+\end{itemize}
+
+\section*{Skills}
+
+\subsection*{Ocean Modeling}
+\begin{itemize}
+	\item Used ROMS ocean modeling code for several applications, worked in "offline" implementation of the code for biological modules; experience with COAWST and GOTM modeling.
+\end{itemize}
+
+\subsection*{Computing and Programming Languages}
+\begin{itemize}
+	\item Proficient in Python; experience in Fortran and Matlab; proficient in \LaTeX; extensive experience with Linux system administration, using a cluster, and shell scripting. Experience with MPI and OpenMP.
+\end{itemize}
+	
+\subsection*{Certifications}
+\begin{itemize}
+	\item CPR, First Aid, SNSI-Advanced Open Water Diver.
+\end{itemize}
+
+\section*{References}
+\subsection*{Dr. Robert Hetland}
+\begin{itemize}
+    \item Professor, Department of Oceanography, College of Geoscience, Texas A\&M University
+    \item Website: \href{https://ocean.tamu.edu/people/faculty/hetlandrobert.html}{\textcolor{blue}{https://ocean.tamu.edu/people/faculty/hetlandrobert.html}}
+    \item Email: \href{mailto:hetland@tamu.edu}{\textcolor{blue}{hetland@tamu.edu}}
+    \item Doctoral Advisor, Texas A\&M University, 2014--2019
+\end{itemize}
+
+\subsection*{Dr. Chrissy Stover Wiederwohl}
+\begin{itemize}
+    \item Instructional Associate Professor, Department of Oceanography, College of Geoscience, Texas A\&M University
+    \item Website: \href{https://ocean.tamu.edu/people/faculty/hetlandrobert.html}{\textcolor{blue}{https://ocean.tamu.edu/people/faculty/wiederwohlchrissystover.html}}
+    \item Email: \href{mailto:chrissyw@tamu.edu}{\textcolor{blue}{chrissyw@tamu.edu}}
+    \item Teaching Assistant Supervisor, Texas A\&M University, 2016--2017
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{small}
+    Last updated: \today
+  \end{small}
+\end{center}
+
+\end{document}
