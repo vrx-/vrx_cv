@@ -1,6 +1,8 @@
+os: osx
+
 script:
 - mkdir _build
-- pdflatex -output-directory _build tex/main.tex
+- pdflatex -interaction=batchmode main.tex
 
 deploy:
   provider: pages
