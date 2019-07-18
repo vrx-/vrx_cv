@@ -1,0 +1,3 @@
+# Howto Deploy LaTeX Documents
+compiler: pdfLaTeX
+root_file: main.tex
